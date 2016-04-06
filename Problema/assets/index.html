@@ -5,6 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link href="css/dist/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="css/dist/bootstrap.min.css" rel="stylesheet">
     <link href="css/dist/font-awesome.min.css" rel="stylesheet">
@@ -13,38 +14,555 @@
 	<link href="css/dist/main.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
 </head>
+	<!-- ADRIANA (BLOG Y COLUMNISTAS) -->
+	<!-- BETT (HOME) -->
+	<!-- KAREN (NAVEGADOR, BANNERS, FOOTER Y CONTACTO) -->
 	<body id="Home">
-		<div class="GlrHeader-banner">
+		<header class="GlrHeader-banner">
 			<div class="GlrHeader-social">
 				<div class="container">
 					<div class="banner-top col-md-16">
-						<img src="image/banner_top.jpg">
-						<div class="banner-list col-md-7">
+						<img class="img-responsive" src="image/banner_top.jpg">
+						<div class="banner-list col-md-9 col-xs-16">
 							<ul>
 								<li><a href="">LIBERO.PE</a></li>
 								<li><a href="">ELPOPULAR.PE</a></li>
 								<li><a href="">FUNDACION GUSTAVO MOHME LLONA</a></li>
 							</ul>
 						</div>
-						<div class="banner-contact col-md-9">
-								<button class="btn btn-lock btn-danger">SUSCRÍBETE AL BOLETÍN</button>
-								<ul>
-									<li><a href=""><i class="fa fa-facebook"></i></a></li>
-									<li><a href=""><i class="fa fa-twitter"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus"></i></a></li>
-									<li><a href=""><i class="fa fa-envelope"></i></a></li>
-									<li><a href=""><i class="fa fa-rss"></i></a></li>
-								</ul>
-	
-								<div class="banner-buscar">
-									<p>BUSCAR</p><i class="fa fa-search"></i>
-								</div>
-							
+						<div class="banner-contact col-md-7 col-xs-16">
+							<button class="btn btn-danger">SUSCRÍBETE AL BOLETÍN</button>
+							<ul>
+								<li><a href=""><i class="fa fa-facebook"></i></a></li>
+								<li><a href=""><i class="fa fa-twitter"></i></a></li>
+								<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+								<li><a href=""><i class="fa fa-envelope"></i></a></li>
+								<li><a href=""><i class="fa fa-rss"></i></a></li>
+							</ul>
+							<div class="banner-buscar">
+								<a href=""><p>BUSCAR</p><i class="fa fa-search"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</header>
+		<header class="logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-xs-16">
+						<img class="img-responsive" src="image/logo-la-republica.jpg" alt="">
+					</div>
+					<div class="banner-editorial col-md-4 col-xs-8">
+						<a href=""><img class="uno img-responsive" src="image/img_editorial_text.jpg">
+						<h6>La corrupción, los orígenes</h6>
+						<p><i>por: Gustavo Mohme Llona</i></p>
+						<img class="dos img-responsive" src="image/img_author.jpg"></a>
+					</div>
+					<div class="banner-futbol col-md-4 col-xs-8">
+						<a href=""><h6>ESPECIAL DE FÚTBOL</h6>
+						<p>TODO SOBRE LA CHAMPIONS LEAGUE</p></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-16">
+						<nav class="navbar">
+						  <div class="container">
+						  	<div class="navbar-header">
+				                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				                    <span class="sr-only">menu</span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                    <span class="icon-bar"></span>
+				                </button>
+            				</div>
+						    <ul class="nav navbar-nav">
+						      <li><a href="#">POLÍTICA</a></li> 
+						      <li><a href="#">ECONOMÍA</a></li> 
+						      <li><a href="#">SOCIEDAD</a></li> 
+						      <li><a href="#">ELECC.REGIONALES</a></li> 
+						      <li><a href="#">DEPORTES</a></li> 
+						      <li><a href="#">CHAMPIONS L.</a></li> 
+						      <li><a href="#">ESPECTÁCULOS</a></li> 
+						      <li><a href="#">ED. IMPRESA</a></li>
+						      <li><a href="#">REGIONALES</a></li>
+						      <li class="dropdown">
+						        <a class="dropdown-toggle" data-toggle="dropdown" href="#">MÁS SECCIONES
+						        <span class="caret"></span></a>
+						        <ul class="dropdown-menu">
+						          <li><a href="#"></a></li>
+						          <li><a href="#">ECONOMÍA</a></li>
+						          <li><a href="#">SOCIEDAD</a></li> 
+						        </ul>
+						      </li> 
+						    </ul>
+						  </div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<header class="banner_aside">
+			<a href=""><img class="img-responsive banner-left" src="image/banner-left.jpg"></a>
+			<a href=""><img class="img-responsive banner-right" src="image/banner-right.jpg"></a>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-16">
+						<nav class="navbar navbar-default">
+						  <div class="container">
+						    <ul class="nav navbar-nav">
+						    	<a class="navbar-brand" href="#">TEMAS DEL DÍA</a>
+						    	<li><a href="#"><</a></li>
+						      <li><a href="#">Globos de oro</a></li> 
+						      <li><a href="#">Youtube</a></li> 
+						      <li><a href="#">PNP</a></li> 
+						      <li><a href="#">Charlie Hebdo</a></li> 
+						      <li><a href="#">FC Barcelona</a></li> 
+						      <li><a href="#">Alianza Lima</a></li> 
+						      <li><a href="#">Balón de Oro</a></li> 
+						      <li><a href="#">Alianza Lima</a></li>
+						      <li><a href="#">Balón</a></li>
+						      <li><a href="#">></a></li>
+						    </ul>
+						  </div>
+						</nav>
+						<a href=""><img class="banner-header img-responsive" src="image/banner-header.jpg"></a>
+					</div>
+				</div>
+			</div>	
+		</header>
+		<section class="home-header-text container">
+			<center>
+				<h1>GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
+				<div class="RRSS-icons">
+					<a href="">
+						<img src="image/icons/facebook-icon.png">
+					</a>
+					<a href="">
+						<img src="image/icons/twitter-icon.png">
+					</a>
+					<a href="">
+						<img src="image/icons/google-icon.png">
+					</a>
+					<img src="image/bullet.gif">
+					<span>Hace 12 minutos</span>
+					<img src="image/bullet.gif">
+					<span>POLÍTICA</span>
+				</div>
+			</center>
+		</section>
+		
+
+		<section class="home-header container">
+			<div class="row">
+
+				<div class="col-sm-8 col-xs-16">
+					<div class="home-header-img">
+						<img src="image/img_grid_principal.jpg">
+					</div>
+					<p>JNE impulsará campaña en favor de la aprobación de la Reforma Electoral</p>
+				</div>
+
+				<div class="col-sm-8 col-xs-16">
+					<div class="row">
+						<div class="col-sm-16 col-xs-16">
+							<div class="home-header-img">
+								<img src="image/img_grid_secundario.jpg">
+							</div>
+							<p class="small">Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por S/. 3 000 millones | FOTOS</p>
+						</div>
+						
+						<div class="col-sm-16 col-xs-16">
+							<div class="home-header-img">
+								<img src="image/img_grid_secundario.jpg">
+							</div>
+							<p class="small">Sub 20: Perú vs. Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudaericano | VIDEO</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+
+		<section class="columnistas container">
+			<div class="row">
+				<center>
+					<div class="redbox">
+						<p>COLUMNISTAS</p>
+					</div>
+				</center>
+			</div>
+			<div class="row push-right">
+				<div>
+					<div class=" col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img-columnistas.jpg">
+							<center>
+								<p>Mario Vargas Llosa</p>
+								<p><strong>Megarrenuncia apulpinante</strong></p>
+							</center>
+						</div>
+					</div>
+					<div class=" col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img_blogueros.jpg">
+							<center>
+								<p>Augusto Álvarez Rodrich</p>
+								<p><strong>Respuesta a una derrota estridente</strong></p>
+							</center>
+						</div>
+					</div>
+					<div class=" col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img-columnistas.jpg">
+						</div>
+						<center>
+								<p>Mario Vargas Llosa</p>
+								<p><strong>Megarrenuncia apulpinante</strong></p>
+						</center>
+					</div>
+					<div class=" col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img_blogueros.jpg">
+						</div>
+						<center>
+								<p>Augusto Álvarez Rodrich</p>
+								<p><strong>Respuesta a una derrota estridente</strong></p>
+						</center>
+					</div>
+					<div class=" col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img-columnistas.jpg">
+						</div>
+						<center>
+								<p>Mario Vargas Llosa</p>
+								<p><strong>Megarrenuncia apulpinante</strong></p>
+						</center>
+					</div>
+					<div class="col-sm-2 col-xs-8 profile-box">
+						<div class="bg-for-img">
+							<img src="image/img_blogueros.jpg">
+						</div>
+						<center>
+								<p>Augusto Álvarez Rodrich</p>
+								<p><strong>Respuesta a una derrota estridente</strong></p>
+						</center>
+					</div>
+				</div>
+
+				<div class="row">
+					<span class="red-dots">
+						
+					</span>
+				</div>
+			</div>
+		</section>
+		
+
+		<section class="deportes-news container">
+			<div class="col-sm-11 col-xs-16"><!--ESTO ESTÁ SEPARADO DE LAS 35 CAJAS DE "ÚLTIMAS NOTICIAS" PARA TRABAJAR MÁS FRACCIONADAMENTE EL CÓDIGO Y LOS ESTILOS-->
+				<div class="row">
+					<div class="col-sm-8 col-xs-16">
+						<div class="border">
+							<p>Mercado de Pases</p>
+							<img src="image/img_especiales.jpg">
+							<p>Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</p>
+							<p>Todo sobre <span><a href="#">Mercado de pases 2015</a></span></p>
+						</div>
+					</div>
+					<div class="col-sm-8 col-xs-16">
+						<div class="border">	
+							<p>Régimen laboral juvenil</p>
+							<img src="image/img_especiales_aside.jpg">
+							<p>Ollanta Humala: Los que han perdido, más allá de tambores y panderetas, son 2 millones de jóvenes | VIDEO</p>
+							<p>Todo sobre <span><a href="#">Régimen laboral juvenil</a></span></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8 col-xs-16">
+						<div class="border">
+							<p>Champions League</p>
+							<img src="image/img_especiales.jpg">
+							<p>¿Podrá el Real Madrid conseguir la "Undécima"?</p>
+							<p>Todo sobre <span><a href="#">Champions League</a></span></p>
+						</div>
+					</div>
+					<div class="col-sm-8 col-xs-16">
+						<div class="border">
+							<p>Super Bowl</p>
+							<img src="image/img_especiales.jpg">
+							<p>Super Bowl XLIX: New England Patriots se consagró campeón la NFL al ganar 28.24 a Seahawks | VIDEO</p>
+							<p>Todo sobre <span><a href="#">Super Bowl</a></span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-5 col-xs-16"><!--ESTO APLICARÁ PARA PUBLICIDAD LATERAL A "deportes-news" Y LAS 35 CAJAS DE "ÚLTIMAS NOTICIAS"-->
+			</div>
+		</section>
+
+
+
+		<section class="ultimas-noticias container">
+			<h4>ÚLTIMAS NOTICIAS</h4>
+
+			<div class="col-sm-11 col-xs-16"><!--ESTO APLICARÁ EN 35 CAJAS DE "ÚLTIMAS NOTICIAS"-->
+				<div class="ultimas-noticias-boxnews"> <!-- x35-->
+					<p>Hace 1 hora 12 mins</p>
+					<h3>Emma Watson protagonizará "La bella y la bestia" | VIDEO</h3>
+
+					<div class="img-news">
+						<img src="image/img_news.jpg">
+					</div>
+					<div class="text-news">
+						<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+						<div class="RRSS-icons">
+							<img src="image/icons/facebook-icon.png">
+							<img src="image/icons/twitter-icon.png">
+							<img src="image/icons/google-icon.png">
+							<img src="image/bullet.gif">
+							<span>Hace 12 minutos</span>
+							<img src="image/bullet.gif">
+							<span>ESPECTÁCTULOS</span>
+							<img src="image/bullet.gif">
+							<img src="image/ico_comment.png">10
+							<img src="image/bullet.gif">
+							<span>
+								<i class="fa fa-youtube-play"></i>
+							</span>
+						</div>
+					</div>
+					<hr>
+				</div><!-- /ultimas-noticias-box-->
+				<div class="ultimas-noticias-boxnews">
+					<p>Hace 1 hora 12 mins</p>
+					<h3>Emma Watson protagonizará "La bella y la bestia" | VIDEO</h3>
+
+					<div class="img-news">
+						<img src="image/img_news.jpg">
+					</div>
+					<div class="text-news">
+						<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+						<div class="RRSS-icons">
+							<img src="image/icons/facebook-icon.png">
+							<img src="image/icons/twitter-icon.png">
+							<img src="image/icons/google-icon.png">
+							<img src="image/bullet.gif">
+							<span>Hace 12 minutos</span>
+							<img src="image/bullet.gif">
+							<span>ESPECTÁCTULOS</span>
+							<img src="image/bullet.gif">
+							<img src="image/ico_comment.png">10
+							<img src="image/bullet.gif">
+							<span>
+								<i class="fa fa-youtube-play"></i>
+							</span>
+						</div>
+					</div>
+					<hr>
+				</div><!-- /ultimas-noticias-box-->
+				<div class="ultimas-noticias-boxnews">
+					<p>Hace 1 hora 12 mins</p>
+					<h3>Emma Watson protagonizará "La bella y la bestia" | VIDEO</h3>
+
+					<div class="img-news">
+						<img src="image/img_news.jpg">
+					</div>
+					<div class="text-news">
+						<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+						<div class="RRSS-icons">
+							<img src="image/icons/facebook-icon.png">
+							<img src="image/icons/twitter-icon.png">
+							<img src="image/icons/google-icon.png">
+							<img src="image/bullet.gif">
+							<span>Hace 12 minutos</span>
+							<img src="image/bullet.gif">
+							<span>ESPECTÁCTULOS</span>
+							<img src="image/bullet.gif">
+							<img src="image/ico_comment.png">10
+							<img src="image/bullet.gif">
+							<span>
+								<i class="fa fa-youtube-play"></i>
+							</span>
+						</div>
+					</div>
+					<hr>
+				</div><!-- /ultimas-noticias-box-->
+				<div class="ultimas-noticias-boxnews">
+					<p>Hace 1 hora 12 mins</p>
+					<h3>Emma Watson protagonizará "La bella y la bestia" | VIDEO</h3>
+
+					<div class="img-news">
+						<img src="image/img_news.jpg">
+					</div>
+					<span class="text-news">
+						<p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' en la versión de carne y hueso.</p>
+						<div class="RRSS-icons">
+							<img src="image/icons/facebook-icon.png">
+							<img src="image/icons/twitter-icon.png">
+							<img src="image/icons/google-icon.png">
+							<img src="image/bullet.gif">
+							<span>Hace 12 minutos</span>
+							<img src="image/bullet.gif">
+							<span>ESPECTÁCTULOS</span>
+							<img src="image/bullet.gif">
+							<img src="image/ico_comment.png">10
+							<img src="image/bullet.gif">
+							<span>
+								<i class="fa fa-youtube-play"></i>
+							</span>
+						</div>
+					</span>
+					<hr>
+				</div><!-- /ultimas-noticias-box-->
+				
+			</div><!--CIERRA HUG ROW DE NOTICIAS-->
+			<div class="columna-right">
+				<div class="col-md-5">
+					<img class="img-responsive" src="image/banner-aside-home.jpg">
+					<div class="well">
+						<div class="suscribe-red">
+							<img src="image/img_sucribe.png">
+							<p><strong>Suscríbete</strong> a nuestro boletín</p>
+							<input class="form-control" placeholder="">
+							<button class="btn btn-block btn-danger">SUSCRIBIRSE</button>
+						</div>
+					</div>
+					<div class="aweita">
+						<div class="logo">
+							<img src="image/logo_aweita.jpg">
+						</div>
+						<div class="lista">
+							<a href=""><img class="thumbnail" src="image/img_aweita.jpg"></a>
+							<p>Juan Román Riquelme, el adiós al 'Último 10' de Argentina</p>
+					</div>
+				</div>
+			</div>
 		</div>
+
+	</section> <!-- cierra el container principal de la página-->
+	
+		
+		<footer>
+			<div class="container">
+				<div class="border-bottom row">
+					<div class="col-md-4">
+						<img class="img-responsive" src="image/logo-grupo-la-republica.png">
+						<h4>Grupo La República Digital</h4>
+						<li>Jr. Camaná 320 Cercado de Lima</li>
+						<li>Teléfono: 711-6000</li>
+						<li>(Central Telefónica)</li><br>
+						<p>Todos los derechos reservados 2015</p>
+					</div>
+					<div class="border col-md-3">
+						<li>Roger Federer</li>
+						<li>SBS</li>
+						<li>Scarlett Johansson</li>
+						<li>Scotiabank</li>
+						<li>Selena Gómez</li>
+						<li>Spiderman</li>
+						<li>Sporting Cristal</li>
+						<li>Sunat</li>
+						<li>Telefónica de Perú</li>
+						<li>The Walking Dead</li>
+						<li>Twitter</li>
+						<li>Universidad Cesar Vallejo</li>
+						<li>Universidad San Martín</li>
+						<li>Universitario de Depotes</li>
+						<li>Xbox</li>
+						<li>YouTube</li>
+						<li>Bayern Munich</li>
+						<li>Bayer Múnich</li>
+						<li>BBVA</li>
+						<li>Xbox</li>
+						<li>BCP</li>
+					</div>
+					<div class="col-md-3">
+						<li>Al fondo hay sitio</li>
+						<li>Alejandro Toledo</li>
+						<li>Alianza Lima</li>
+						<li>Alianza Lima</li>
+						<li>Banco de la Nación</li>
+						<li>Barack Obama</li>
+						<li>Universidad Cesar</li>
+						<li>Vallejo</li>
+						<li>Universidad San Martín</li>
+						<li>Barcelona</li>
+						<li>Bayer Múnich</li>
+						<li>Bayer Múnich</li>
+						<li>BBVA</li>
+						<li>Universitario de Depotes</li>
+						<li>Xbox</li>
+						<li>YouTube</li>
+						<li>Bayern Munich</li>
+						<li>Bayer Múnich</li>
+						<li>BBVA</li>
+						<li>Xbox</li>
+						<li>BCP</li>
+					</div>
+					<div class="col-md-3">
+						<li>One Direction</li>
+						<li>ONPE</li>
+						<li>Pablo Escobar</li>
+						<li>Paolo Guerrero</li>
+						<li>Pensión 65</li>
+						<li>PNP</li>
+						<li>Precio del dólar</li>
+						<li>Sunat</li>
+						<li>Telefónica de Perú</li>
+						<li>The Walking Dead</li>
+						<li>Twitter</li>
+						<li>Universidad Cesar Vallejo</li>
+						<li>Universidad San Martín</li>
+						<li>Universitario de Depotes</li>
+						<li>Xbox</li>
+						<li>PUCP</li>
+						<li>Bayern Munich</li>
+						<li>Real Madrid</li>
+						<li>Redes Sociales</li>
+						<li>Reniec</li>
+						<li>Robert Pattinson</li>
+					</div>
+					<div class="col-md-3">
+						<li>Al fondo hay sitio</li>
+						<li>Alejandro Toledo</li>
+						<li>Alianza Lima</li>
+						<li>Alianza Lima</li>
+						<li>Banco de la Nación</li>
+						<li>Barack Obama</li>
+						<li>Universidad Cesar</li>
+						<li>Vallejo</li>
+						<li>Universidad San Martín</li>
+						<li>Barcelona</li>
+						<li>Bayer Múnich</li>
+						<li>Bayer Múnich</li>
+						<li>BBVA</li>
+						<li>Universitario de Depotes</li>
+						<li>Xbox</li>
+						<li>YouTube</li>
+						<li>Bayern Munich</li>
+						<li>Bayer Múnich</li>
+						<li>BBVA</li>
+						<li>Xbox</li>
+						<li>BCP</li>
+					</div>
+				</div>
+				<div class="diarios row">
+					<p>Diarios del PAL:</p>
+					<li><a href="">Clarín |</a></li>
+					<li><a href="">La Tercera |</a></li>
+					<li><a href="">El Universal Venezuela |</a></li>
+					<li><a href="">Vanguardia |</a></li>
+					<li><a href="">La Prensa |</a></li>
+					<li><a href="">El Salvador |</a></li>
+					<li><a href="">La Verdad |</a></li>
+					<li><a href="">Diario Libre |</a></li>
+					<li><a href="">El diario de hoy |</a></li>
+					<li><a href="">El Colombiano </a></li>
+				</div>
+		</footer>
 
 		<script src="js/hmtl5-respond.js"></script>
 		<script src="js/bootstrap-hover-dropdown.min.js"></script>						
